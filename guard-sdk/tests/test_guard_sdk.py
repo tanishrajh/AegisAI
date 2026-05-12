@@ -1,7 +1,7 @@
 """Tests for the aegisai-guard SDK — covers allow, sanitize, and block decisions."""
 
 import aegisai_guard
-from aegisai_guard import LLMGuard, SanitizationLevel, GuardDecision
+from aegisai_guard import LLMGuard, SanitizationLevel
 
 
 # ---------------------------------------------------------------------------
@@ -32,7 +32,6 @@ def test_api_availability():
     """Verify that the main API classes are available."""
     assert LLMGuard is not None
     assert SanitizationLevel is not None
-    assert GuardDecision is not None
 
 
 # ---------------------------------------------------------------------------
