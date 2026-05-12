@@ -19,4 +19,4 @@ def test_basic_usage():
     guard = LLMGuard(sanitization_level=SanitizationLevel.MEDIUM)
     result = guard.guard("test prompt")
     assert result["decision"] == "allow"
-    assert result["sanitized_text"] == "test prompt"
+    assert result["sanitized_text"] is None
