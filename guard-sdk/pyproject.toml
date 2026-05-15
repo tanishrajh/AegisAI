@@ -34,9 +34,4 @@ dev = ["pytest>=8.0", "pytest-cov"]
 Homepage = "https://github.com/SdSarthak/AegisAI"
 Repository = "https://github.com/SdSarthak/AegisAI"
 
-# TODO (high priority — publish):
-#   1. Run `pip install hatch`
-#   2. Run `hatch build` to produce dist/
-#   3. Run `hatch publish` to upload to PyPI
-#   4. Add a GitHub Actions workflow at .github/workflows/publish-guard-sdk.yml
-#      that triggers on `push --tags v*` and runs the above commands.
+
